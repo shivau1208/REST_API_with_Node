@@ -1,0 +1,30 @@
+GET http://localhost:3000/subscribers/65561130af48b98602e7612a
+
+
+
+
+###
+
+POST   http://localhost:3000/subscribers/
+Content-Type: application/json
+
+{
+  "name":"Shivaraj Umadi",
+  "subscribedToChannel":"MyChannel"
+}
+
+###
+DELETE http://localhost:3000/subscribers/65561130af48b98602e7612a
+
+
+
+
+
+###
+PATCH  http://localhost:3000/subscribers/65561130af48b98602e7612a
+Content-Type: application/json
+
+{
+  "name":"SM Umadi",
+  "subscribedToChannel":"My_Channel"
+}
